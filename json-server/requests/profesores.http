@@ -1,0 +1,39 @@
+### Get profesores
+GET http://localhost:3000/profesores
+
+### POST profesor
+POST  http://localhost:3000/profesores
+Content-Type: application/json
+
+{
+    "nombre": "Patricio",
+    "apellido": "Estrella",
+    "materias": [
+        {"nombre": "Arduino"}
+    ]
+}
+
+### PUT profesor
+PUT http://localhost:3000/profesores/55c6
+Content-Type: application/json
+
+{
+    "nombre": "Patricio",
+    "apellido": "Estrella",
+    "materias": [
+        {"nombre": "HTML"},
+        {"nombre": "CSS"}
+    ]
+}
+
+### PATCH profesor
+PATCH  http://localhost:3000/profesores/55c6
+Content-Type: application/json
+
+{
+    "nombre": "Horacio",
+    "apellido": "Quiroga"
+}
+
+### DELETE profesor
+DELETE  http://localhost:3000/profesores/55c6

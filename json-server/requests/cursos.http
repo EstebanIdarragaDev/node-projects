@@ -1,0 +1,36 @@
+### GET cursos
+GET http://localhost:3000/cursos
+
+### GET curso
+GET http://localhost:3000/cursos/:id
+
+
+### POST curso
+POST http://localhost:3000/cursos
+Content-Type: application/json
+
+{
+    "nombre": "Angular",
+    "duracion": 12,
+    "dificultad": "alta"
+}
+
+### PUT curso
+PUT http://localhost:3000/cursos/:id
+Content-Type: application/json
+
+{
+    "nombre": "TypeScript",
+    "duracion": 13,
+    "dificultad": "alta"
+}
+### PATCH curso
+PATCH  http://localhost:3000/cursos/:id
+Content-Type: application/json
+
+{
+    "duracion": 18
+}
+
+### DELETE curso
+DELETE http://localhost:3000/cursos/b69f

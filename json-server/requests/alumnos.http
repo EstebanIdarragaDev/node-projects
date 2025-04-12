@@ -1,0 +1,38 @@
+### Get alumnos
+GET http://localhost:3000/alumnos
+
+### Get alumno
+GET http://localhost:3000/alumnos/:id
+
+### POST alumno
+POST http://localhost:3000/alumnos
+Content-Type: application/json
+
+{
+    "nombre": "Mario",
+    "apellido": "Mendoza",
+    "promedio": 10
+}
+
+
+### PUT alumno
+PUT http://localhost:3000/alumnos/:id
+Content-Type: application/json
+
+{
+    "nombre": "Stefan",
+    "apellido": "Zweig",
+    "promedio": 5
+}
+
+
+### PATCH alumno
+PATCH  http://localhost:3000/alumnos/:id
+Content-Type: application/json
+
+{
+    "promedio":7
+}
+
+### DELETE alumno
+DELETE http://localhost:3000/alumnos/:id

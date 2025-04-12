@@ -1,0 +1,67 @@
+{
+  "profesores": [
+    {
+      "nombre": "Esteban",
+      "apellido": "Idarraga",
+      "materias": [
+        {
+          "nombre": "Nodejs"
+        },
+        {
+          "nombre": "React"
+        },
+        {
+          "nombre": "Python"
+        },
+        {
+          "nombre": "Django"
+        }
+      ],
+      "id": "7b87"
+    },
+    {
+      "id": "daca",
+      "nombre": "Patricio",
+      "apellido": "Estrella",
+      "materias": [
+        {
+          "nombre": "Arduino"
+        }
+      ]
+    }
+  ],
+  "alumnos": [
+    {
+      "nombre": "Maria",
+      "apellido": "Rodrigez",
+      "promedio": 8,
+      "id": "dea0"
+    },
+    {
+      "nombre": "Leo",
+      "apellido": "Messi",
+      "promedio": 10,
+      "id": "2253"
+    }
+  ],
+  "cursos": [
+    {
+      "nombre": "Nodejs",
+      "duracion": 7,
+      "dificultad": "intermedia",
+      "id": "1d5c"
+    },
+    {
+      "nombre": "React",
+      "duracion": 9,
+      "dificultad": "alta",
+      "id": "962b"
+    },
+    {
+      "nombre": "Django",
+      "duracion": 5,
+      "dificultad": "alta",
+      "id": "6169"
+    }
+  ]
+}
