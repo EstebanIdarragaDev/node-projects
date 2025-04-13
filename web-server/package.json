@@ -1,0 +1,16 @@
+{
+  "name": "web-server",
+  "version": "0.0.1",
+  "description": "proyecto de web server",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node --watch src/app.js"
+  },
+  "author": "Esteban Idarraga",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.5.0",
+    "env-var": "7.5.0",
+    "express": "^5.1.0"
+  }
+}
