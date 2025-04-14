@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "proyecto de web server",
   "main": "src/app.js",
+  "type":"module",
   "scripts": {
     "start":"node --watch src/app.js"
   },
