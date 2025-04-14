@@ -2,15 +2,14 @@
 
 Proyecto sencillo para aprender a crear un servidor que de una pagina web basica
 
-### Notas
-1. Crear la carpeta src/
-1. Dentro de src/config/envs.js para las variables de entorno 
-1. Dentro de src/server
-1. Crear el .env
-1. Crear el .gitignore
-
 ---
-### Ejecutar el proyecto
+
+### ¿Como usarlo?
+1. Descargar el repositorio o abrir una terminal y ejecutar el comando `git clone url`
+1. Configurar las varibales de entorno crear el archivo `.env` y usar la plantilla `.env.template`. [Recomendado PORT=3000 y PUBLIC_PATH='public']
+1. Instalar los paquetes - abrir una terminal dentro del proyecto y ejecutar `npm install`
+
+Ejecutar el proyecto
 ```node
-npm run dev
+npm run start
 ```
