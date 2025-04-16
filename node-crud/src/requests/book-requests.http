@@ -1,0 +1,38 @@
+### Get all books
+GET http://localhost:3000/books
+
+### POST books
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "En las montañas de la locura",
+    "author": "H. P. Lovecraft",
+    "genre": "Ciencia Ficcion",
+    "publication_date": "1936"
+}
+
+### Get book
+GET http://localhost:3000/books/680007bacf7f99b259537312
+
+### PUT book
+PUT http://localhost:3000/books/680007bacf7f99b259537312
+Content-Type: application/json
+
+{
+    "title": "El alquimista",
+    "author": "Paulo Cohelo",
+    "genre": "Fantasia",
+    "publication_date": "2008"
+}
+
+### PATCH
+PATCH http://localhost:3000/books/680007bacf7f99b259537312
+Content-Type: application/json
+
+{
+    "publication_date": "2017"
+}
+
+### DELETE
+DELETE http://localhost:3000/books/68000ea3b9addbd18cd366d2
